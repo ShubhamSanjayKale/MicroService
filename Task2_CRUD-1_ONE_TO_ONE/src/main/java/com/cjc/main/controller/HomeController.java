@@ -22,7 +22,13 @@ public class HomeController {
 	{
 		return "login";
 	}
-	
+ // method added by dev 1
+      @RequestMapping("/")
+	public String prelogin()
+	{
+		return "login";
+	}
+//	
 	@RequestMapping("/reg")
 	public String preregister()
 	{
